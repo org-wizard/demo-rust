@@ -94,6 +94,8 @@ fn main() {
         "O"
     } else if !board.is_winner(Player::PlayerX) {
         "Draw"
+    } else if !board.is_winner(Play::PlayerX) {
+        "Y"
     } else {
         "X"
     };
