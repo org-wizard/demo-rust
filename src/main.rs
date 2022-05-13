@@ -5,7 +5,6 @@ use std::{convert::identity as id, {fmt}};
 
 #[derive(Debug, PartialEq, Copy, Clone)]
 enum Player {
-
     PlayerX,
     PlayerO,
     EmptyPlayer,
@@ -81,6 +80,10 @@ fn main() {
     //     O|O|O
     //     X|O|E
     //     X|E|X
+    board.update_state(Player::PlayerO, 5);
+    board.update_state(Player::PlayerO, 5);
+    board.update_state(Player::PlayerO, 5);
+    board.update_state(Player::PlayerO, 5);
     board.update_state(Player::PlayerO, 5);
     board.update_state(Player::PlayerX, 4);
     board.update_state(Player::PlayerO, 3);
