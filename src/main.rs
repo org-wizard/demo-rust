@@ -5,6 +5,7 @@ use std::{convert::identity as id, {fmt}};
 
 #[derive(Debug, PartialEq, Copy, Clone)]
 enum Player {
+
     PlayerX,
     PlayerO,
     EmptyPlayer,
