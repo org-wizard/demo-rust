@@ -84,7 +84,6 @@ fn main() {
     board.update_state(Player::PlayerO, 5);
     board.update_state(Player::PlayerO, 5);
     board.update_state(Player::PlayerO, 5);
-    board.update_state(Player::PlayerO, 5);
     board.update_state(Player::PlayerX, 4);
     board.update_state(Player::PlayerO, 3);
     board.update_state(Player::PlayerX, 7);
